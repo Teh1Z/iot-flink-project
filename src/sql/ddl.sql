@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS iot_device_types CASCADE;
+CREATE TABLE iot_device_types (id INTEGER PRIMARY KEY, type_name VARCHAR(100) NOT NULL);
