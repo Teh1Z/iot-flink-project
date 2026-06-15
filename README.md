@@ -22,7 +22,7 @@ docker compose up --build
 
 ```bash
 docker exec -it $(docker ps -qf "name=kafka") \
-  kafka-console-consumer.sh \
+  kafka-console-consumer \
   --bootstrap-server localhost:9092 \
   --topic iot-results \
   --from-beginning
